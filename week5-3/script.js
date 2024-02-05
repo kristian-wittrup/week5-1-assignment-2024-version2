@@ -7,7 +7,7 @@ themeToggle.addEventListener('click', () => {
 });
  */
 
-document.body.onclick = (e) => {
+document.getElementById('themeToggle').onclick = (e) => {
     const body = document.body;
 
     // Toggle dark mode class when the body is clicked

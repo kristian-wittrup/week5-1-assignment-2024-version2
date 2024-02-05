@@ -19,6 +19,7 @@ body {
     height: 100px;
     background-color: var(--box-color);
     opacity: 0;
+    clip-path: polygon(0 0, 100% 0%, 63% 23%, 63% 100%);
     /*  animation: dropFadeIn 1s forwards; */
     /*  animation: dualEntry 1s forwards; */
 }
@@ -43,8 +44,8 @@ body {
 .box {
     animation: fadeIn 1s forwards;
 }
-
-/* .box:nth-child(1) {
+/* 
+ .box:nth-child(1) {
     transform: translateY(-100px);
 }
 
@@ -58,15 +59,15 @@ body {
 
 .box:nth-child(4) {
     transform: translateY(-100px);
-} 
- */
+}  */
+ 
 
 /* drop fade in + drop - with delay */
 
-/* 
-.box:nth-child(1) {
+ 
+/* .box:nth-child(1) {
     transform: translateY(-100px);
-    animation-delay: 0.2s;
+    animation-delay: 0.2s; 
 }
 
 .box:nth-child(2) {
@@ -82,14 +83,14 @@ body {
 .box:nth-child(4) {
     transform: translateY(-100px);
     animation-delay: 0.8s;
-} */
+}  */
  
 
 /* drop fade in + drop - with delay and different direction */
-
+ 
 .box:nth-child(1) {
     transform: translateY(-100px) translateX(-100px);
-    animation-delay: 0.2s;
+    animation-delay: 0.2s;;
     
 }
 
