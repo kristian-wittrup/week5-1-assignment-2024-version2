@@ -90,8 +90,6 @@ body {
 .box:nth-child(1) {
     transform: translateY(-100px) translateX(-100px);
     animation-delay: 0.2s;
-
-
     
 }
 
