@@ -1,0 +1,112 @@
+:root {
+    --column-width: 200px;
+    --column-gap: 20px;
+    --container-padding: 20px;
+
+    /* Main Version: */
+    --color-1: #3498db; /* Blue */
+    --color-2: #e74c3c; /* Red */
+    --color-3: #2ecc71; /* Green */
+    --color-4: #f39c12; /* Orange */
+
+    /* Bonus/Advanced Version: */
+    --box-color: #3498db; /* Default box color is blue */
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    gap: var(--column-gap);
+    padding: var(--container-padding);
+}
+
+.column:nth-child(1) {
+    background-color: var(--color-1, var(--box-color)); /* What is second color added? */
+    color: #fff;
+}
+
+.column:nth-child(2) {
+    background-color: var(--color-2, var(--box-color));
+    color: #fff;
+}
+
+.column:nth-child(3) {
+    background-color: var(--color-3, var(--box-color));
+    color: #fff;
+}
+
+.column:nth-child(4) {
+    background-color: var(--color-4, var(--box-color));
+    color: #fff;
+}
+
+.column {
+    flex: 1;
+    min-width: var(--column-width);
+    padding: 10px;
+}
+
+
+
+/* bonus assignment */
+/*
+:root {
+    --column-width: 200px;
+    --column-gap: 20px;
+    --container-padding: 20px;
+
+    --color-1: #3498db; 
+    --color-2: #e74c3c; 
+    --color-3: #2ecc71; 
+    --color-4: #f39c12; 
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    gap: var(--column-gap);
+    padding: var(--container-padding);
+}
+
+.column:nth-child(1) {
+    background-color: var(--color-1);
+    color: #fff;
+}
+
+.column:nth-child(2) {
+    background-color: var(--color-2);
+    color: #fff;
+}
+
+.column:nth-child(3) {
+    background-color: var(--color-3);
+    color: #fff;
+}
+
+.column:nth-child(4) {
+    background-color: var(--color-4);
+    color: #fff;
+}
+
+.column {
+    flex: 1;
+    min-width: var(--column-width);
+    padding: 10px;
+}
+*/

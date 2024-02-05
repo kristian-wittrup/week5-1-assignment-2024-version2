@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #3498db; /* Default primary color is blue */
+    --secondary-color: #e74c3c; /* Default secondary color is red */
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}

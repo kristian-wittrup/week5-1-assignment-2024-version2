@@ -1,0 +1,35 @@
+:root {
+    --background-light: #f0f0f0;
+    --background-dark: #333;
+    --text-light: #333;
+    --text-dark: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--background-light);
+    color: var(--text-light);
+  /*   transition: background-color 0.5s, color 0.5s; */
+}
+
+.container {
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+/* 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--background-dark);
+        color: var(--text-dark);
+    }
+} */
